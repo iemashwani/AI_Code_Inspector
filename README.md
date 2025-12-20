@@ -121,7 +121,7 @@ Visit `http://localhost:3000` in your browser.
 ## 🧪 Example Usage
 
 1. Open the application in the browser.
-2. Input the path or repository you want to inspect.
+2. Paste the code you want to inspect.
 3. Let the AI analyze your code.
 4. View detailed structural insights or error suggestions instantly.
 
