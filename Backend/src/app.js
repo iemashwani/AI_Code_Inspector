@@ -1,17 +1,14 @@
 const express = require("express");
+const aiRoutes = require("./routes/ai.routes");
 
 const app = express();
+
+app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("hello from server");
 });
 
-app.get("/home", (req, res) => {
-  res.send("hello from home api");
-});
-
-app.get("/user", (req, res) => {
-  res.send("user created..");
-});
+app.use("/ai", aiRoutes);
 
 module.exports = app;
